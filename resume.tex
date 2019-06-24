@@ -1,0 +1,136 @@
+\documentclass{resume}
+
+%encoding
+%--------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%--------------------------------------
+ 
+%Portuguese-specific commands
+%--------------------------------------
+\usepackage[portuguese, english]{babel}
+%--------------------------------------
+ 
+%Hyphenation rules
+%--------------------------------------
+\usepackage{hyphenat}
+\hyphenation{mate-mática recu-perar}
+
+\usepackage{ragged2e}
+\usepackage{fontawesome}
+\usepackage[left=0.5in,top=0.2in,right=0.5in,bottom=0.6in]{geometry} % Document margins
+\usepackage{enumitem}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{João Vilaça}
+\address{DevOps/Software Engineer}
+\address{1998-06-30 \\ Braga, Portugal}
+
+\cfoot{Updated on {\selectlanguage{english}\today}}
+
+\begin{document}
+\begin{center}
+    \href{tel:351964350755}{(+351) 964350755} \hspace{0.1cm}
+    \href{mailto:machadovilaca@gmail.com}{machadovilaca@gmail.com} \hspace{0.1cm}
+    \\
+    Find me as \textit{machadovilaca} on all Social Media:
+    \href{https://www.linkedin.com/in/machadovilaca}{\faLinkedin} \hspace{0.1cm}
+    \href{https://github.com/machadovilaca}{\faGithub} \hspace{0.1cm}
+    \href{https://gitlab.com/machadovilaca}{\faGitlab} \hspace{0.1cm}
+    \href{https://www.facebook.com/machadovilaca}{\faFacebook} \hspace{0.1cm}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}
+{\textbf{Software Engineer}, Imprensa Nacional - Casa da Moeda}{\em September 2018 - Present}{}{}
+\begin{shifted}
+Working at the Digital Security Solutions Unit creating e-Gov solutions, e-ID products and digital solutions with focus on authentication, proof of identity and secure transactions. (Java, Thymeleaf, MariaDB, JavaScript, Jira)
+\end{shifted}
+\end{rSubsection}
+
+\begin{rSubsection}
+{\textbf{Freelance Web Developer}, Healthium – Healthcare Software Solutions (Startup)}{\em June - September 2018}{}{}
+\begin{shifted}
+Developed new features on the Nutrium software focusing the user experience. I contributed to the improvement of core features like the meal planning, allowing meal renaming and reordering. Besides that I was responsible for redoing all of the main dashboard to improve the user flow in the appointments management screen. (Ruby on Rails, PostgreSQL, JavaScript, Trello)
+\end{shifted}
+\end{rSubsection}
+
+\begin{rSubsection}
+{\textbf{DevOps Summer Internship}, Eurotux Informática}{\em Summer 2018}{}{}
+\begin{itemize}[noitemsep]
+    \item {Created 2 new plugins for OPNsense Firewall, \href{https://github.com/opnsense/plugins/pull/788}{Add email-config-backup} and \href{https://github.com/opnsense/plugins/pull/748}{Add IP support to ProxyUserACL} }
+    \item {Developed a service with Go for developers to directly access a Docker container via SSH (where their own development branch is deployed), running in any EC2 machine on a given ECS service, using the AWS SDK}
+\end{itemize}
+\end{rSubsection}
+
+\begin{rSubsection}
+{\textbf{DevOps Summer Internship}, Eurotux Informática}{\em Summer 2017}{}{}
+\begin{itemize}[noitemsep]
+    \item {Fixed a Segmentation Fault in the NGINX Cache Purge Module}
+    \item {Physical server installation and virtualization setup (VMware ESXi) at SABSEG offices in Braga}
+\end{itemize}
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf 3rd year in the Integrated Master Degree in Computer Engineering} \hfill {\em September 2016 - Present}
+\\University of Minho, Braga, Portugal \hfill \vspace{0.1cm} { Grade: 15.17/20 }
+\\
+\textbf{Activities} \hspace{0.2cm} Class Delegate, Academic Newspaper, Students Association, ESN colaborator
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l }
+\vspace{0.1cm}
+Skills \ & Software Development and Management, SysAdmin, IT Management, DevOps \\
+\vspace{0.1cm}
+Languages \ & Java, JavaScript, C/C++, PHP (Laravel), Ruby (Rails), Go, Haskell  \\
+Technologies \ & Git, Jira, AWS, Linux, NGINX, Apache, Vagrant, GDB, VMware, Microsoft Office, LaTeX, \\
+\vspace{0.1cm}
+    \ & Trello, SVN \\
+Personal \ & Critical and Logical Thinking; Self-criticism; Leadership; Communication; Perseverance; \\
+    \ & Writing Experience; Organization; Motivation; Commitment;
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	VOLUNTEER EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Volunteer Experience}
+
+\begin{rSubsection}
+{\textbf{Secretary (board of administration)}}{\em September 2018 - Present}{CeSIUM - University of Minho Computer Engineering Students Center}{Braga, Portugal}
+\end{rSubsection}
+
+\begin{rSubsection}
+{\textbf{Department of Communication Co-director (c-suite)}}{\em September 2017 - September 2018}{CeSIUM - University of Minho Computer Engineering Students Center}{Braga, Portugal}
+\end{rSubsection}
+
+\end{rSection}
+
+\end{document}
