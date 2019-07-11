@@ -31,7 +31,7 @@
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,      
-    urlcolor=[rgb]{0.218, 0.245, 0.588}},
+    urlcolor=[rgb]{0.218, 0.245, 0.588}}
 }
 
 \pagestyle{empty} % Suppress page numbers
