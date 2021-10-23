@@ -5,12 +5,12 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 %--------------------------------------
- 
+
 %Portuguese-specific commands
 %--------------------------------------
 \usepackage[portuguese, english]{babel}
 %--------------------------------------
- 
+
 %Hyphenation rules
 %--------------------------------------
 \usepackage{hyphenat}
@@ -29,21 +29,19 @@
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 
 \name{João Vilaça}
-\address{DevOps/Software Engineer}
+\address{Software Engineer}
 \address{1998-06-30 \\ Braga, Portugal}
 
 \cfoot{Updated on {\selectlanguage{english}\today}}
 
 \begin{document}
 \begin{center}
-    \href{tel:351964350755}{(+351) 964350755} \hspace{0.1cm}
     \href{mailto:machadovilaca@gmail.com}{machadovilaca@gmail.com} \hspace{0.1cm}
     \\
     Find me as \textit{machadovilaca} on all Social Media:
     \href{https://www.linkedin.com/in/machadovilaca}{\faLinkedin} \hspace{0.1cm}
     \href{https://github.com/machadovilaca}{\faGithub} \hspace{0.1cm}
     \href{https://gitlab.com/machadovilaca}{\faGitlab} \hspace{0.1cm}
-    \href{https://www.facebook.com/machadovilaca}{\faFacebook} \hspace{0.1cm}
 \end{center}
 
 %----------------------------------------------------------------------------------------
@@ -53,34 +51,23 @@
 \begin{rSection}{Work Experience}
 
 \begin{rSubsection}
-{\textbf{DevOps Engineer}, Seegno}{\em September 2019 - Present}{}{}
-\begin{shifted}
-Responsible for infrastructure management using platforms as a service, namely AWS. Using Kubernetes to manage many applications running under a microservices architecture and automating all deployment processes with GitLab's CI/CD. Also working on investigating new helpful technologies providing logging, tracing and analytics to both DevOps and Development teams.
-\end{shifted}
+{\textbf{Software Engineer}, Red Hat \href{https://www.redhat.com}{\faLink}}{2021 - Present}{}{}
+Openshift Virtualization team. Developing open-source Kubernetes Operators in Go for the \href{https://kubevirt.io/}{KubeVirt} project
 \end{rSubsection}
 
 \begin{rSubsection}
-{\textbf{Software Engineer}, Imprensa Nacional - Casa da Moeda}{\em September 2018 - September 2019}{}{}
-\begin{shifted}
-Working at the Digital Security Solutions Unit creating e-Gov solutions, e-ID products and digital solutions with focus on authentication, proof of identity and secure transactions. (Java, Thymeleaf, MariaDB, JavaScript, Jira)
-\end{shifted}
+{\textbf{DevOps Engineer}, Public Mint \href{https://publicmint.com/}{\faLink}}{2019 - 2021}{}{}
+Kubernetes orchestration, logging, monitoring and tracing. AWS infrastructure management and automation with Terraform and Ansible. CI/CD with GitLab
 \end{rSubsection}
 
 \begin{rSubsection}
-{\textbf{Freelance Web Developer}, Healthium – Healthcare Software Solutions (Startup)}{\em June - September 2018}{}{}
-\begin{shifted}
-Developed new features on the Nutrium software. Improvement of core features like the meal planning and redesign of the appointments management dashboard. (Ruby on Rails, PostgreSQL, JavaScript, Trello)
-\end{shifted}
+{\textbf{Software Engineer}, Imprensa Nacional - Casa da Moeda \href{https://www.incm.pt}{\faLink}}{2018 - 2019}{}{}
+Development of Digital Security Solutions (e-Gov and e-ID products) with focus on authentication, proof of identity and secure transactions
 \end{rSubsection}
 
 \begin{rSubsection}
-{\textbf{2 DevOps Summer Internship}, Eurotux Informática}{\em Summer 2018, Summer 2017}{}{}
-\begin{itemize}[noitemsep]
-    \item {Created 2 new plugins for OPNsense Firewall, \href{https://github.com/opnsense/plugins/pull/788}{Add email-config-backup} and \href{https://github.com/opnsense/plugins/pull/748}{Add IP support to ProxyUserACL} }
-    \item {Developed a service with Go for developers to directly access a Docker container via SSH (where their own development branch is deployed), running in any EC2 machine on a given ECS service, using the AWS SDK}
-    \item {Fixed a Segmentation Fault in the NGINX Cache Purge Module}
-    \item {Physical server installation and virtualization setup (VMware ESXi) at SABSEG offices in Braga}
-\end{itemize}
+{\textbf{2 DevOps Summer Internships}, Eurotux Informática \href{https://eurotux.com/}{\faLink}}{2017 and 2018}{}{}
+Open Source contributions for OPNsense Firewall, Nginx and Nginx Cache Purge Module. Go service for access in development environments to Docker containers via SSH running in any EC2 machine on a given ECS service
 \end{rSubsection}
 
 \end{rSection}
@@ -91,14 +78,44 @@ Developed new features on the Nutrium software. Improvement of core features lik
 
 \begin{rSection}{Education}
 
-{\bf Integrated Master Degree in Computer Software Engineering (4th year)} \hfill {\em September 2016 - Present}
-\\University of Minho, Braga, Portugal \hfill \vspace{0.1cm} {Grade: 15.19/20 }
-\\
-\textbf{Activities} \hspace{0.2cm} Class Delegate, Academic Newspaper, Students Association, ESN colaborator
-\\
-\\
-{\bf Bachelor's degree in Informatics Engineering Sciences} \hfill {\em September 2016 - July 2019}
-\\University of Minho, Braga, Portugal \hfill \vspace{0.1cm} { Grade: 15/20 (B on ECTS Scale) }
+\begin{rSubsection}
+{\textbf{Student Researcher}, AIDA - INESC TEC \href{https://www.inesctec.pt/en/projects/aida}{\faLink}}{2020 - Present}{}{}
+
+Design and implementation of new scheduling frameworks for Edge Computing that accounted for both the available computational resources and the geographical location of nodes when orchestrating workloads in Kubernetes/KubeEdge
+
+\end{rSubsection}
+
+\begin{rSubsection}
+{\textbf{Integrated Master Degree in Software Engineering}, University of Minho \href{https://www.uminho.pt/EN}{\faLink}}{2016 - Present}{}{}
+% \textit{Thesis:} Orchestration and distribution of services in hybrid Cloud/Edge environments - Development of a Kubernetes/KubeEdge scheduler, aware of the geographic location of processing nodes and of data producers to improve in scalability levels, while reducing request latency and network usage
+% \vspace{0.2cm}
+% \\
+\textit{Graduate Coursework:} Distributed Systems, Fault Tolerance, Large Scale Systems, Semantic Interoperability, Knowledge Discovery, Data Analysis, IT Systems Security
+% \vspace{0.2cm}
+% \\
+% \textit{Undergraduate Coursework:} Programming Language Paradigms, Computer Architectures, Distributed Systems, Operating Systems, Algorithms, Project Analysis and Design, Databases, Networking, Mathematics \hspace{0.2cm}
+% \vspace{0.2cm}
+% \\
+% \textit{Extra activities:} Class delegate, Member of the Pedagogic Council, Academic Newspaper \hspace{0.2cm}
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Publications}
+
+\begin{rSubsection}
+{\textbf{Geolocate: A geolocation-aware scheduling system for Edge Computing}}{2021}{}{}
+
+Workshop on High-Performance and Reliable Big Data 2021
+
+\textit{Keywords:} scheduling, edge computing, containers, kubernetes, kubeedge
+
+\end{rSubsection}
+
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -108,15 +125,11 @@ Developed new features on the Nutrium software. Improvement of core features lik
 \begin{rSection}{Strengths}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l }
+Languages and Technologies \ & Go, Java, Python, Kubernetes, AWS, Docker, Terraform, Ansible, \\
 \vspace{0.1cm}
-Skills \ & Software Development and Management, DevOps, Team Management, SysAdmin \\
-\vspace{0.1cm}
-Languages \ & Java, JavaScript, Go, C/C++, PHP (Laravel), Ruby (Rails), Haskell  \\
-Technologies \ & Kubernetes, Git, Jira, AWS, Linux, NGINX, Apache, ELK Stack, CI/CD \\
-\vspace{0.1cm}
-    \ & LaTeX, Trello, SVN, Notion \\
-Personal \ & Critical and Logical Thinking; Self-criticism; Leadership; Communication; Perseverance; \\
-    \ & Writing Experience; Organization; Motivation; Commitment;
+    \ &  CI/CD tools, ELK Stack, Git \\
+Personal \ & Critical and Logical Thinking, Self-criticism, Leadership, Communication, \\
+    \ & Perseverance, Writing Experience
 \end{tabular}
 
 \end{rSection}
@@ -128,11 +141,23 @@ Personal \ & Critical and Logical Thinking; Self-criticism; Leadership; Communic
 \begin{rSection}{Volunteer Experience}
 
 \begin{rSubsection}
-{\textbf{Secretary (board of administration)}}{\em September 2018 - Present}{CeSIUM - University of Minho Computer Engineering Students Center}{Braga, Portugal}
+{\textbf{CeSIUM - University of Minho Computer Engineering Students Center}}{}{}{}
+\begin{shifted}
+2020/2021 - Vice-President
+\\
+2019/2020 - Treasurer
+\\
+2018/2019 - Secretary (board of administration)
+\\
+2017/2018 - Department of Communication Co-director
+\end{shifted}
 \end{rSubsection}
 
 \begin{rSubsection}
-{\textbf{Department of Communication Co-director (c-suite)}}{\em September 2017 - September 2018}{CeSIUM - University of Minho Computer Engineering Students Center}{Braga, Portugal}
+{\textbf{ENEI - Portuguese National Meeting of Computer Science Students}}{}{}{}
+\begin{shifted}
+2019/2021 - Treasurer
+\end{shifted}
 \end{rSubsection}
 
 \end{rSection}

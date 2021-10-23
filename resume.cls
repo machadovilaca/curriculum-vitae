@@ -4,7 +4,7 @@
 % This template has been downloaded from:
 % http://www.LaTeXTemplates.com
 %
-% This class file defines the structure and design of the template. 
+% This class file defines the structure and design of the template.
 %
 % Original header:
 % Copyright (C) 2010 by Trey Hunner
@@ -20,7 +20,7 @@
 
 \ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
 
-\LoadClass[11pt,letterpaper]{article} % Font size and paper type
+\LoadClass[11pt,a4paper]{article} % Font size and paper type
 
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
@@ -30,7 +30,7 @@
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
-    filecolor=magenta,      
+    filecolor=magenta,
     urlcolor=[rgb]{0.218, 0.245, 0.588}}
 }
 
@@ -45,7 +45,7 @@
 
 \def \addressSep {$\diamond$} % Set default address separator to a diamond
 
-% One, two or three address lines can be specified 
+% One, two or three address lines can be specified
 \let \@addressone \relax
 \let \@addresstwo \relax
 \let \@addressthree \relax
@@ -139,6 +139,6 @@
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
 \def\namesize{\huge} % Size of the name at the top of the document
 \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
-\def\sectionlineskip{\smallskip} % The space above the horizontal line for each section 
+\def\sectionlineskip{\smallskip} % The space above the horizontal line for each section
 \def\nameskip{\medskip} % The space after your name at the top
 \def\sectionskip{\smallskip} % The space after the heading section
