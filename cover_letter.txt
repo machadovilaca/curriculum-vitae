@@ -1,0 +1,22 @@
+I have 3 years of professional experience as a Software Engineer. I have been
+working at Red Hat for 1 year, where I am a part of Kubevirt's
+Hyperconverged Cluster Operator team. I have also worked as a DevOps Engineer at
+Public Mint, where I developed a platform for a payment system that aims to
+reduce fees for worldwide transfers through cryptocurrencies and blockchain.
+
+I have a strong technical background and I am very passionate about software
+development and new technologies. I have a good understanding of distributed
+systems, virtualization, and containers. I am also familiar with a wide range of
+programming languages and frameworks, such as Golang, Java, JavaScript, and Ruby
+on Rails.
+
+I completed my Master's Degree in Software Engineering in 2022, at the
+University of Minho. I was class delegate and was elected for several positions
+at CeSIUM, my courses students center, such as Treasurer and Vice-President.
+There I developed a vast range of skills and participated in a lot of projects,
+from developing platforms and websites, organizing tech conferences, managing
+social networks, and managing the treasury of the organization.
+
+I am a team player and I have good communication skills. I am proactive and I
+always try to find the best solution to the problem at hand. I am also a fast
+learner and I am always willing to learn new things.
